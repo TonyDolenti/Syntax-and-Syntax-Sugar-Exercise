@@ -1,7 +1,7 @@
 ## Exercise 1:
 Given the following code, change the code to implement:
 
-+ inferred typing
+<!-- + inferred typing
 + string interpolation
 + and the ternary operator
 ```
@@ -14,5 +14,6 @@ if (answer < 9)
 else
 {
     response = answer + " is greater than or equal to nine";
-}
+} -->
 ```
+var response = (answer < 9)? $"{answer} is less than nine" : $"greater than or equal to nine";
